@@ -1,0 +1,32 @@
+# Ignora node_modules per evitar copiar les dependències instal·lades localment
+node_modules
+npm-debug.log
+
+# Ignora fitxers de configuració de l'editor
+.vscode
+.idea
+*.swp
+
+# Ignora fitxers de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora fitxers de git
+.git
+.gitignore
+
+# Ignora arxius de logs
+logs
+*.log
+
+# Ignora les bases de dades SQLite locals
+*.sqlite
+*.sqlite-journal
+
+# Ignora la carpeta dist o altres fitxers de compilació
+dist
+build
+
+# Ignora Dockerfiles i altres fitxers de Docker
+Dockerfile
+docker-compose.yml
